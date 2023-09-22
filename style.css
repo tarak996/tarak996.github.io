@@ -1,0 +1,56 @@
+h5{
+    background-color: rgb(169, 224, 224);
+    padding: 10px;
+    font-size: 26px;
+}
+
+#o {
+    color: brown;
+    background:linear-gradient(pink aqua);
+}
+
+form{
+    background-color:rgb(219, 232, 236);
+    padding: 10px;
+    margin: auto;
+}
+#counsel{
+    float:right;
+    padding: 10px;
+    font-size:28px;
+    width: 25%;
+}
+#use{
+    width: 90%;
+    padding:10px;
+}
+input{
+    width: 20%;
+    padding: 10px;
+}
+
+button{
+    background-color: azure;
+    padding: 10px;
+    border: 4px solid ;
+    color: rgb(6, 7, 7);
+    font:bold;
+}
+button:hover{
+    background-color: rgb(42, 112, 117);   
+}
+#shiva {
+    width: 30%;
+    float: right;
+    font-size: 28px;
+}
+#second{
+    width: 94%;
+    animation: name 3s infinite;
+}
+#h2 {
+
+    position: sticky;
+}
+
+

@@ -1,0 +1,59 @@
+.main1 {
+    background-color: lightgray;
+    display: grid;
+    grid-template-areas:
+    'one two three four ';
+}
+
+.main {
+    width: 250px;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+
+}
+.one {
+    grid-area: one;
+    border-color: blue;
+    align-self: center;
+}
+.two {
+    grid-area: two;
+    border-color: aqua;
+}
+.three {
+    grid-area: three;
+}
+.four {
+    grid-area: four;
+}
+
+
+.pi {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    transition: all 0.5s ease-in-out;
+}
+.pi:hover {
+    transform: scale(1.1);
+  
+}
+#space {
+    width:100%;
+    height: 400px;
+    padding-top: 20px;
+}
+
+
+
+    
+

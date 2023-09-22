@@ -1,0 +1,48 @@
+#chinna {
+    background-color: rgb(6, 6, 59);
+    padding: 20px;
+    color: aliceblue; 
+    position: sticky;
+    top:0px;
+    animation-name: myself;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes myself {
+    25% {background-color: blueviolet;}
+    50% {background-color: brown;}
+    75% {background-color: rgb(209, 123, 11);}
+}
+#sam{
+    
+    float: right;
+}
+#nnn{
+    transition: all 0.5s ease-in-out;
+    
+}
+#nnn:hover{
+    
+    border: 0px solid rgb(22, 9, 18);
+    padding: 5px;
+    width: 70%;
+    text-shadow: 15px 14px 16px rgb(14, 112, 158), 6px 12px 12px rgb(18, 185, 143);
+    box-shadow: 6px 5px 10px rgb(29, 199, 142);
+    color: rgb(105, 32, 32);
+    font-size: 36px; 
+    border-radius: 6px;  
+}
+.head {
+    padding: 5px;
+    border: 0px solid black;
+    text-shadow: 4px 5px 6px rgb(43, 216, 202);
+    font: bold bold bold;
+    font-size:12px;       
+}
+.head:hover{
+    background-color: rgb(187, 230, 231);
+}
+#reddy {
+    border: double;
+    margin: -1px -5px -2px -2px;
+}
